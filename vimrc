@@ -11,5 +11,10 @@ colorscheme vividchalk
 
 set laststatus=2 "always display status bar"
 set nowrap
+set nobackup
+set noswapfile
+
+set list
+set listchars=tab:>.,trail:.,extends:#,nbsp:.
 
 autocmd VimEnter * NERDTree
