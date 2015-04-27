@@ -3,4 +3,10 @@ syntax on
 filetype plugin indent on
 
 nnoremap <C-T> :NERDTreeTabsToggle<CR>
-nmap <F8> :TagbarToggle<CR>
+nnoremap <C-I> :GoDef<CR>
+
+nmap <F8> :TagbarToggle<CR> 
+
+colorscheme vividchalk
+
+set laststatus=2 "always display status bar"
