@@ -10,5 +10,6 @@ nmap <F8> :TagbarToggle<CR>
 colorscheme vividchalk
 
 set laststatus=2 "always display status bar"
+set nowrap
 
 autocmd VimEnter * NERDTree
