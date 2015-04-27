@@ -3,10 +3,12 @@ syntax on
 filetype plugin indent on
 
 nnoremap <C-T> :NERDTreeTabsToggle<CR>
-nnoremap <C-I> :GoDef<CR>
+nnoremap <F9> :GoDef<CR>
 
 nmap <F8> :TagbarToggle<CR> 
 
 colorscheme vividchalk
 
 set laststatus=2 "always display status bar"
+
+autocmd VimEnter * NERDTree
